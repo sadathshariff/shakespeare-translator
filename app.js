@@ -8,7 +8,7 @@ var outputText =  document.querySelector(".output-txt");
 
 var serverurl = "https://api.funtranslations.com/translate/shakespeare.json"; 
 
-function getTranslationUrl(text){
+function getTranslationUrl(text) {
     return serverurl + "?" + "text=" + text;
 }
 
@@ -28,7 +28,7 @@ function clickhandler(){
     fetch(getTranslationUrl(inputTxt))
     .then(response => response.json())
     .then(json => {
-        var trnaslatedText = json.contents.translated;
+        var translatedText = json.contents.translated;
         outputText.innerText =  translatedText;
     })
     .catch(errorhandler)
