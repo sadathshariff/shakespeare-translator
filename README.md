@@ -2,6 +2,8 @@
 
 This  app converts normal english to Shakespeare's language .
 
-You can try, Using the link in the About section.
+You can play, By clicking the link below :
 
-The API is restricted to only 5 translation per hour. 
+**[englishtoshakespeare](https://englishtoshakespeare.netlify.app/)**
+
+ **The API is restricted to only 5 translation per hour.**
